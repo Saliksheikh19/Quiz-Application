@@ -348,3 +348,58 @@ footer .next-btn:hover{
     border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
+
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 100%;
+    }
+
+    .info-box{
+        width: 350px;
+        
+    }
+
+    .quiz-box{
+             width: 350px;
+             height: 62vh;
+             
+    }
+
+    .quiz-box section .ques span{
+        font-size: 20px;
+
+    }
+    .quiz-box section .option-list{
+        padding: 7px 0;
+    }
+
+    .result-box{
+        font-size: 16px;
+        width: 350px;
+    }
+    .result-box .score-text span{
+        font-size: 14px;
+    }
+    .result-box .buttons button{
+        padding: 2px;
+        font-size: 16px;
+    }
+    .quiz-box header{
+        padding: 0 14px;
+    }
+    section .option-list .option{
+        font-size: 15px;
+    }
+    
+    .quiz-box footer{
+        height: 28px;
+        padding-bottom: 50px;
+        padding-top: 28px;
+    }
+    .quiz-box section{
+        padding-bottom: 0px;
+    }
+    
+    
+}
